@@ -1,0 +1,20 @@
+baseURL = "https://blog.nikchester.lat/"
+languageCode = "ru"
+title = "nikchester"
+theme = "papermode"
+
+[params]
+  homeInfoParams = { Title = "Добро пожаловать на мой сайт!", Content = "Здесь будут мои посты и заметки." }
+  ShowReadingTime = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+  socialIcons = [
+    { name = "telegram", url = "https://t.me/Chesterf1ld" }
+  ]
+
+[[menu.main]]
+  name = "Посты"
+  url = "/posts/"
+  weight = 1
