@@ -1,0 +1,23 @@
+name: dev-etogeek cicd
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - prod
+jobs:
+  deploy-dev:
+    runs-on: self-hosted
+    environment: 
+      name: prod
+      url: https://blog.nikchester.lat
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+        with:
+          submodules: recursive
+      - name: Deploy Dev
+        run: |
+          hugo
+          sudo rm -rf /var/www/blog
+          sudo mkdir -p /var/www/blog
+          sudo cp -r public/* /var/www/blog/
