@@ -1,7 +1,8 @@
 #!/bin/bash
-cd ~/hugo-site
+cd /home/nikchester/hugo-site
 echo "🔄 Генерирую сайт..."
 hugo --minify
+#hugo --cleanDestinationDir
 
 echo "📂 Копирую файлы в /var/www/blog..."
 rm -rf /var/www/blog/*

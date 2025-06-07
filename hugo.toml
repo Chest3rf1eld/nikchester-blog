@@ -1,17 +1,18 @@
 baseURL = "https://blog.nikchester.lat/"
 languageCode = "ru"
-title = "nikchester"
+title = "Chesterfield"
 theme = "papermode"
 
 [params]
-  homeInfoParams = { Title = "Добро пожаловать на мой сайт!", Content = "Здесь будут мои посты и заметки." }
+  homeInfoParams = { Title = "Блог Никиты Чатурова aka nikchester", Content = "Здрасте! Здесь я делюсь интересными мыслями, материалами и знаниями." }
   ShowReadingTime = true
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
   ShowToc = true
   socialIcons = [
-    { name = "telegram", url = "https://t.me/Chesterf1ld" }
+    { name = "telegram", url = "https://t.me/Chesterf1ld" },
+    { name = "github", url = "https://github.com/Chest3rf1eld" }
   ]
 
 [[menu.main]]
