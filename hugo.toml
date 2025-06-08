@@ -15,9 +15,6 @@ theme = "papermode"
     { name = "github", url = "https://github.com/Chest3rf1eld" }
   ]
 
-[params.assets]
-  favicon = "favicon.ico"
-
 [[menu.main]]
   name = "Посты"
   url = "/posts/"
