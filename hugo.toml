@@ -12,9 +12,9 @@ theme = "papermode"
   ShowToc = true
   socialIcons = [
     { name = "telegram", url = "https://t.me/Chesterf1ld" },
-    { name = "github", url = "https://github.com/Chest3rf1eld" }
-    { name = "youtube", url = "https://www.youtube.com/@Chesterf1eld" }
-    { name = "unsplash", url = "https://unsplash.com/@nikchester" }
+    { name = "github", url = "https://github.com/Chest3rf1eld" },
+    { name = "youtube", url = "https://www.youtube.com/@Chesterf1eld" },
+    { name = "unsplash", url = "https://unsplash.com/@nikchester" },
     { name = "behance", url = "https://www.behance.net/chesterfield_art" }
   ]
 
